@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+}
+header {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(255, 0, 0);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.input-conteiner {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(255, 0, 0);
+}
+input {
+  outline: none;
+}
+
+.feat-input {
+  width: 70%;
+  height: 40px;
+  padding: 0;
+  border: none;
+  font-size: 1.5em;
+  padding-left: 10px;
+}
+
+::placeholder {
+  color: rgb(120, 120, 120);
+}
+
+.feat-button {
+  width: 10%;
+  height: 40px;
+  background-color: rgb(140, 140, 140);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+
+.feat-button:hover {
+  background-color: rgb(120, 120, 120);
+  color: rgb(230, 230, 230);
+}
